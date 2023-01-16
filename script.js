@@ -10,10 +10,10 @@ botaoGerar.addEventListener("click", ()=> {
 function genQrcode() {
     if (!input.value) return
 
-    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${input.value}`
+    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${input.value}`
 }
 
 botaoApagar.addEventListener("click", ()=> {
-    qrcode.src = ""
+    qrcode.src = "img/kevensouzzGithub.png"
     input.value = ""
 })
