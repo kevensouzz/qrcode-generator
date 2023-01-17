@@ -10,7 +10,7 @@ botaoGerar.addEventListener("click", ()=> {
 function genQrcode() {
     if (!input.value) return
 
-    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${input.value}`
+    qrcode.src = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${input.value}`
 }
 
 botaoApagar.addEventListener("click", ()=> {
